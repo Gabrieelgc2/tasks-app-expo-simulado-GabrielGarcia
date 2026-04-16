@@ -1,16 +1,5 @@
-// globalStyles.ts
-import { StyleSheet } from "react-native";
-
-export default StyleSheet.create({
-  text: {
-    fontSize: 30,
-    color: "#333",
-  },
-  container: {
-    padding: 10,
-    margin: 10,
-  },
-  corDeFundo: {
-    backgroundColor: "#007BFF",
-  },
-});
+export const globalStyles = {
+  primaryColor: '#B6B6B6',
+  backgroundColor: '#ffffff',
+  bodyFontSize: 14,
+};
