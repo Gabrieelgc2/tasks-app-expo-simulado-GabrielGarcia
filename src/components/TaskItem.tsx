@@ -1,17 +1,6 @@
-import React, {useState} from 'react';
 import { View, Text, StyleSheet, TouchableOpacity } from 'react-native';
 import { Feather, AntDesign } from '@expo/vector-icons';
 import { TaskItem as TaskType } from '../utils/handle-api';
-
-const [isVencida, dataPrazo] = useState(false);
-
-const definirData = () => {
-  if (isVencida) {
-    return <Text style={styles.text}>Você está logado!</Text>;
-    } else {
-      return <Text style={styles.text}>Por favor, faça login.</Text>;
-    } 
-}
 
 interface TaskItemProps {
   task: TaskType;
